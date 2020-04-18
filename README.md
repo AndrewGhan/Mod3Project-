@@ -1,7 +1,9 @@
 # Mod3Project-
 Categorical Modeling 
+
 # Goal
 The goal of this project is to predict whether a well in Tanzania is functional or in need of repair. We created multply models to predict this and the best model that we made was Random Forrest according to the recall and f1 score.
+
 # Target
 functional = 0
 
