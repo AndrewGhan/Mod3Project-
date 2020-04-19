@@ -18,3 +18,30 @@ amount_tsh,	gps_height,	installer,	longitude,	latitude,	basin,	region,	region_co
 Our data clean, mostly we just had to drop Na's and change the types of our data so we can run it in our model. 
 
 # Distribution of Target
+https://lh6.googleusercontent.com/BOusAosgmri1koVSbwEQUj86ZqGl90NutQsNvINqlqxeWGnwdOSXWfceMCIyvrNEQzd6Pv27cWAuSL3kLPk5Qh22kCtazhmJJjbdSNof9EjesmDEVP6KbewMJsKrgsAZXg0hSIDM5BI
+
+# Feature Engineering/ Feature Selection
+Created a new feature that dictates how old the well is. Tanzania started keeping a record of all of their wells starting in 1960. All wells that were made before that we considered ancient and made the value 100 years old.
+
+We used a MinMax Scaler to regularize all of our data.
+
+Our Top 10 features ended up being
+- Longtitude
+- Latitude
+- GPS Height
+- Quantity
+- Years Operational
+- Payment Type
+- Water Point Type
+- Distric Code
+- Amount Tsh: Amount of water available at water point
+- Region
+- Installer
+- Permit
+
+# Models
+We tried multiple models, including Logistic Regression, Random forrest, Bagging, and XGBoost
+
+# Conclusion
+After running and gridsearching multiple models we found that the Random Forrest model was the best. Random Forrest happens to the best model because of how pure the differences were in our variables. Most the the wells that needed to be repaired fall into the same category
+
