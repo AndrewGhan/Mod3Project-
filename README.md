@@ -15,3 +15,6 @@ non-functional = 2
 amount_tsh,	gps_height,	installer,	longitude,	latitude,	basin,	region,	region_code,	district_code,	population,	public_meeting,	scheme_name	permit,	construction_year,	extraction_type,	payment,	water_quality,	quality_group	quantity,	quantity_group,	source,	waterpoint_type.	
 
 # Data Cleaning
+Our data clean, mostly we just had to drop Na's and change the types of our data so we can run it in our model. 
+
+# 
