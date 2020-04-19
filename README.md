@@ -17,4 +17,4 @@ amount_tsh,	gps_height,	installer,	longitude,	latitude,	basin,	region,	region_co
 # Data Cleaning
 Our data clean, mostly we just had to drop Na's and change the types of our data so we can run it in our model. 
 
-# 
+# Distribution of Target
