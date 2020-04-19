@@ -45,3 +45,5 @@ We tried multiple models, including Logistic Regression, Random forrest, Bagging
 # Conclusion
 After running and gridsearching multiple models we found that the Random Forrest model was the best. Random Forrest happens to the best model because of how pure the differences were in our variables. Most the the wells that needed to be repaired fall into the same category
 
+# Link to Presentation
+https://docs.google.com/presentation/d/1mTiuE6NfeDh1VY0OvN6paSgPHz68cfbn2P-pr3vTtSA/edit#slide=id.g74636f51ab_2_50
